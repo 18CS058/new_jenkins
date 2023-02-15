@@ -1,12 +1,12 @@
 pipeline{
-	agent any
+    agent any
 	stages{
-		stage('Build'){
-			steps{
-				echo 'Build stage in progress'
-				sleep 2
-				echho 'Build stage completed'
-			}
+	   stage('Build'){
+	       steps{
+		   echo 'Build stage in progress'
+             	   sleep 2			
+		   echo 'Build stage completed'
 		}
-	}
+	   }
+      }
 }
